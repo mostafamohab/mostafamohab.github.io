@@ -26,16 +26,16 @@ header {
 }
 
 .profile-pic {
-    flex: 0 0 100px;
-    margin-right: 20px;
-}
-
-.profile-pic img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
     border: 2px solid #ddd;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
 }
 
 .header-info {
