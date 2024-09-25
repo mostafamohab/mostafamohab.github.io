@@ -30,8 +30,13 @@ header {
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid #d10606;
 }
+.circular-image {
+    width: 100%; /* Make the image take full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+}
+
 
 .profile-pic img {
     width: 100%;
