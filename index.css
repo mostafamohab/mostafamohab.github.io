@@ -1,118 +1,124 @@
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-.resume {
-    max-width: 800px;
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.profile-pic {
-    width: 150px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.circular-image {
-    width: 100%; /* Make the image take full width of the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Make the image circular */
-}
-
-
-.profile-pic img {
-    width: 100%;
-    height: auto;
-}
-
-.header-info {
-    flex: 1;
-    text-align: left;
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-header p {
-    margin-bottom: 5px;
+	padding: 48px;
 }
 
 section {
-    margin-bottom: 20px;
+	margin-bottom: 32px;
 }
 
-h2 {
-    margin-bottom: 10px;
-    color: #333;
+section:last-child {
+	margin-bottom: 0;
 }
 
-.job {
-    margin-bottom: 15px;
+span, li {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 1.5rem;
 }
 
-.job h3 {
-    margin-bottom: 5px;
+div.line {
+	margin-bottom: 16px;
 }
 
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
+div.columns {
+	display: flex;
 }
 
-@media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
+div.columns > span {
+	width: 100%;
+	margin-inline-end: 24px;
+}
 
-    .resume {
-        padding: 10px;
-    }
+div.columns > span:last-child {
+	margin-inline-end: 0;
+}
 
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
+div.separator {
+	border-bottom: double;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
 
-    .profile-pic {
-        margin-bottom: 1000px;
-    }
+div.align-center {
+    display: flex;
+    justify-content: center;
+}
 
-    .header-info {
-        text-align: center;
-    }
+img.profile-picture {
+    border-radius: 100%;
+    width: 200px;
+}
 
-    header h1 {
-        font-size: 24px;
-    }
+p.contact-info {
+	margin-block: 0;
+}
 
-    header p {
-        font-size: 14px;
-    }
+p.contact-info > span:before {
+	content: "•";
+	margin-inline: 10px;
+}
 
-    h2 {
-        font-size: 18px;
-    }
+p.contact-info > span:first-child:before {
+	display: none;
+}
 
-    .job h3 {
-        font-size: 16px;
-    }
+p.job-header {
+	margin-block: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+p.job-header > span {
+    font-weight: 600;
+}
+
+p.certificate {
+	margin-block: 0;
+}
+
+p.certificate > span:first-child {
+	font-weight: 600;
+}
+
+p.certificate > span:before {
+	content: "•";
+	margin-inline: 10px;
+}
+
+p.certificate > span:first-child:before {
+	display: none;
+}
+
+span.my-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+span.job-title {
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+span.section-header {
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+span.section-body {
+	text-align: justify;
+	display: block;
+}
+
+span.job-label {
+	font-weight: 600;
+}
+
+ol.job-desciption {
+	margin-block: 0;
+}
+
+ul.job-desciption {
+	margin-block: 0;
 }
