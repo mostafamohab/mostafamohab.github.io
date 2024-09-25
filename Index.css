@@ -1,4 +1,4 @@
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ header {
 }
 
 .profile-pic {
-    flex: 0 0 150px;
+    flex: 0 0 100px;
     margin-right: 20px;
 }
 
