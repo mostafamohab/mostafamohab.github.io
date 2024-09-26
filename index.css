@@ -1,10 +1,27 @@
+
+
+/* styles.css */
 body {
-	padding: 48px;
- background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
 }
-h1	{
-  color: #333;
+h1 {
+    color: #333;
 }
+.accordion-btn {
+    background-color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+/* Add more styles as needed */
 
 
 section {
