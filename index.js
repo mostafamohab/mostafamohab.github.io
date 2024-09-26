@@ -1,6 +1,10 @@
 // script.js
-// Display a welcome message
-console.log('Welcome to My CV!');
+// Initialize the slider
+$('.slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    adaptiveHeight: true
+});
 
-// Add event listeners or other dynamic behavior
-// (e.g., show/hide sections, tooltips, etc.)
