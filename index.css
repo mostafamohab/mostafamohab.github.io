@@ -43,8 +43,8 @@
     background: #f1f1f1;
     padding: 15px;
     width: 80%;
-    display: flex;
-    border-radius: 5px;
+    display: none;
+    border-radius: 0px;
 }
 
 .panel {
