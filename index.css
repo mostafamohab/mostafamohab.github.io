@@ -1,6 +1,3 @@
-
-
-/* styles.css */
 .body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -36,7 +33,8 @@
     transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
     background-color: #ccc;
 }
 
@@ -55,40 +53,41 @@
 }
 
 section {
-	margin-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 section:last-child {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
-span, li {
-	font-family: "Times New Roman", Times, serif;
-	font-size: 16px;
-	line-height: 1.5rem;
+span,
+li {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.5rem;
 }
 
 div.line {
-	margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 div.columns {
-	display: flex;
+    display: flex;
 }
 
-div.columns > span {
-	width: 100%;
-	margin-inline-end: 24px;
+div.columns>span {
+    width: 100%;
+    margin-inline-end: 24px;
 }
 
-div.columns > span:last-child {
-	margin-inline-end: 0;
+div.columns>span:last-child {
+    margin-inline-end: 0;
 }
 
 div.separator {
-	border-bottom: double;
-	padding-bottom: 8px;
-	margin-bottom: 8px;
+    border-bottom: double;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 div.align-center {
@@ -102,43 +101,43 @@ img.profile-picture {
 }
 
 p.contact-info {
-	margin-block: 0;
+    margin-block: 0;
 }
 
-p.contact-info > span:before {
-	content: "•";
-	margin-inline: 10px;
+p.contact-info>span:before {
+    content: "•";
+    margin-inline: 10px;
 }
 
-p.contact-info > span:first-child:before {
-	display: none;
+p.contact-info>span:first-child:before {
+    display: none;
 }
 
 p.job-header {
-	margin-block: 0;
-	display: flex;
-	justify-content: space-between;
+    margin-block: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-p.job-header > span {
+p.job-header>span {
     font-weight: 600;
 }
 
 p.certificate {
-	margin-block: 0;
+    margin-block: 0;
 }
 
-p.certificate > span:first-child {
-	font-weight: 600;
+p.certificate>span:first-child {
+    font-weight: 600;
 }
 
-p.certificate > span:before {
-	content: "•";
-	margin-inline: 10px;
+p.certificate>span:before {
+    content: "•";
+    margin-inline: 10px;
 }
 
-p.certificate > span:first-child:before {
-	display: none;
+p.certificate>span:first-child:before {
+    display: none;
 }
 
 span.my-name {
@@ -148,29 +147,29 @@ span.my-name {
 }
 
 span.job-title {
-	text-transform: capitalize;
-	font-size: 18px;
+    text-transform: capitalize;
+    font-size: 18px;
 }
 
 span.section-header {
-	text-transform: capitalize;
-	font-weight: 600;
-	font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 span.section-body {
-	text-align: justify;
-	display: block;
+    text-align: justify;
+    display: block;
 }
 
 span.job-label {
-	font-weight: 600;
+    font-weight: 600;
 }
 
 ol.job-desciption {
-	margin-block: 0;
+    margin-block: 0;
 }
 
 ul.job-desciption {
-	margin-block: 0;
+    margin-block: 0;
 }
