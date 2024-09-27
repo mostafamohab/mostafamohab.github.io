@@ -27,7 +27,8 @@
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: left;
+    text-align: center;
+ display: flex;
     border: none;
     outline: none;
     transition: 0.4s;
