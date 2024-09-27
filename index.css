@@ -1,179 +1,198 @@
-.body {
+
+/* Basic styling for the entire page */
+body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 10px;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    box-sizing: border-box;
 }
 
-.header {
-    text-align: center;
+.container {
+    max-width: 960px;
+    margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
 }
 
-.profile-pic {
+/* Header styling */
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
-.static-section {
-    padding: 20px;
-    background-color: #e2e2e2;
+.social-links a {
+    margin: 0 10px;
+    color: #333; 
+    font-size: 24px; 
+    text-decoration: none;
 }
 
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 15px;
-    width: 80%;
-    text-align: center;
-    display: flex;
-    border: none;
-    outline: none;
-    transition: 0.4s;
+.social-links a:hover {
+    color: #007bff; 
 }
 
-.active,
-.accordion:hover {
-    background-color: #ccc;
-}
-
-.accordion-content {
-    background: #f1f1f1;
-    padding: 100px;
-    width: 100%;
-    display: none;
-    border:none;
-    
-}
-
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-}
-
+/* Section styling */
 section {
-    padding-bottom: 8px;
-    margin-bottom: 8px;
+    padding: 40px 0;
 }
 
-section:last-child {
-    margin-bottom: 0;
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-span,
-li {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    line-height: 1.5rem;
+/* Timeline styling (for Experience section) */
+.timeline {
+    position: relative;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
 }
 
-div.line {
-    margin-bottom: 16px;
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ddd;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
 }
 
-div.columns {
-    display: flex;
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    width: calc(50% - 20px);
 }
 
-div.columns>span {
-    width: 100%;
-    margin-inline-end: 15px;
+.timeline-icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #007bff; /* Example icon color */
 }
 
-div.columns>span:last-child {
-    margin-inline-end: 0;
+.timeline-item:nth-child(odd) {
+    left: 0;
+    padding-right: 20px;
 }
 
-div.separator {
-    border-bottom: double;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
+.timeline-item:nth-child(odd)::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
 }
 
-div.align-center {
-    display: flex;
-    justify-content: center;
+.timeline-item:nth-child(even) {
+    left: 50%;
+    padding-left: 20px;
 }
 
-img.profile-picture {
-    border-radius: 100%;
-    width: 200px;
+.timeline-item:nth-child(even)::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
 }
 
-p.contact-info {
-    margin-block: 0;
+.timeline-content .timeline-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 5px;
 }
 
-p.contact-info>span:before {
-    content: "•";
-    margin-inline: 10px;
+.timeline-content .timeline-company {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
-p.contact-info>span:first-child:before {
+.timeline-content .timeline-responsibilities li {
+    margin-bottom: 5px;
+}
+
+/* Hide the original marker */
+/* .timeline-marker {
     display: none;
+} */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline-item::before {
+        left: 60px;
+    }
+
+    .timeline-item .timeline-content {
+        float: none;
+    }
+
+    .timeline-item .timeline-content::before {
+        left: 68px;
+    }
 }
 
-p.job-header {
-    margin-block: 0;
+/* Skill categories styling */
+.skill-categories {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-p.job-header>span {
-    font-weight: 600;
+.skill-categories > div {
+    flex: 1;
+    margin: 0 20px;
 }
 
-p.certificate {
-    margin-block: 0;
+/* Footer styling */
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
 }
 
-p.certificate>span:first-child {
-    font-weight: 600;
+/* Social media icons styling */
+.social-links a {
+    margin: 0 10px;
+    color: #333; /* Adjust icon color as needed */
+    font-size: 24px; /* Adjust icon size as needed */
+    text-decoration: none;
 }
 
-p.certificate>span:before {
-    content: "•";
-    margin-inline: 10px;
-}
-
-p.certificate>span:first-child:before {
-    display: none;
-}
-
-span.my-name {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 30px;
-}
-
-span.job-title {
-    text-transform: capitalize;
-    font-size: 15px;
-}
-
-span.section-header {
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 12px;
-}
-
-span.section-body {
-    text-align: justify;
-    display: block;
-}
-
-span.job-label {
-    font-weight: 600;
-}
-
-ol.job-desciption {
-    margin-block: 0;
-}
-
-ul.job-desciption {
-    margin-block: 0;
+.social-links a:hover {
+    color: #007bff;
 }
