@@ -7,24 +7,24 @@ body {
     padding: 0px;
 }
 
-header {
+.header {
     text-align: center;
     padding: 20px;
     background-color: #f4f4f4;
 }
 
-profile-pic {
+.profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
-static-section {
+.static-section {
     padding: 20px;
     background-color: #e2e2e2;
 }
 
-accordion {
+.accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -36,7 +36,7 @@ accordion {
     transition: 0.4s;
 }
 
-active, .accordion:hover {
+.active, .accordion:hover {
     background-color: #ccc;
 }
 
