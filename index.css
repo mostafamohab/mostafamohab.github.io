@@ -1,221 +1,226 @@
 
 /* Basic styling for the entire page */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #333;
-    box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 0.5;
+  color: #333;
+  box-sizing: border-box;
 }
 
 .accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
 }
 
-.active,.accordion:hover {
-    background-color: #ccc;
+.active,
+.accordion:hover {
+  background-color: #ccc;
 }
 
 .accordion-content {
-    background: #f1f1f1;
-    padding: 10px;
-    display: none;
-    border-radius: 5px;
+  background: #f1f1f1;
+  padding: 10px;
+  display: none;
+  border-radius: 5px;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Header styling */
 header {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 40px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 40px 0;
 }
 
 header img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .social-links a {
-    margin: 0 10px;
-    color: #333; 
-    font-size: 24px; 
-    text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
 }
 
 .social-links a:hover {
-    color: #007bff; 
+  color: #007bff;
 }
 
 /* Section styling */
 section {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 section h2 {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /* Timeline styling (for Experience section) */
 .timeline {
-    position: relative;
-    max-width: 1200px; /* Adjust as needed */
-    margin: 0 auto;
+  position: relative;
+  max-width: 1200px;
+  /* Adjust as needed */
+  margin: 0 auto;
 }
 
 .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #ddd;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
 }
 
 .timeline-item {
-    position: relative;
-    margin-bottom: 40px;
-    width: calc(50% - 20px);
+  position: relative;
+  margin-bottom: 40px;
+  width: calc(50% - 20px);
 }
 
 .timeline-icon {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #007bff; /* Example icon color */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #007bff;
+  /* Example icon color */
 }
 
 .timeline-item:nth-child(odd) {
-    left: 0;
-    padding-right: 20px;
+  left: 0;
+  padding-right: 20px;
 }
 
 .timeline-item:nth-child(odd)::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
-    top: 0;
-    border-radius: 50%;
-    z-index: 1;
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 0;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .timeline-item:nth-child(even) {
-    left: 50%;
-    padding-left: 20px;
+  left: 50%;
+  padding-left: 20px;
 }
 
 .timeline-item:nth-child(even)::before {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
-    top: 0;
-    border-radius: 50%;
-    z-index: 1;
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 0;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .timeline-content .timeline-title {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 5px;
 }
 
 .timeline-content .timeline-company {
-    color: #666;
-    font-style: italic;
-    margin-bottom: 10px;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 10px;
 }
 
 .timeline-content .timeline-responsibilities li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 /* Hide the original marker */
 /* .timeline-marker {
     display: none;
-} */
+} 
 
 /* Media query for responsiveness */
 @media screen and (max-width: 768px) {
-    .timeline::after {
-        left: 31px;
-    }
+  .timeline::after {
+    left: 31px;
+  }
 
-    .timeline-item {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
+  .timeline-item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
 
-    .timeline-item::before {
-        left: 60px;
-    }
+  .timeline-item::before {
+    left: 60px;
+  }
 
-    .timeline-item .timeline-content {
-        float: none;
-    }
+  .timeline-item .timeline-content {
+    float: none;
+  }
 
-    .timeline-item .timeline-content::before {
-        left: 68px;
-    }
+  .timeline-item .timeline-content::before {
+    left: 68px;
+  }
 }
 
 /* Skill categories styling */
 .skill-categories {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-.skill-categories > div {
-    flex: 1;
-    margin: 0 20px;
+.skill-categories>div {
+  flex: 1;
+  margin: 0 20px;
 }
 
 /* Footer styling */
 footer {
-    background-color: #f0f0f0;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px 0;
 }
 
 /* Social media icons styling */
 .social-links a {
-    margin: 0 10px;
-    color: #333; /* Adjust icon color as needed */
-    font-size: 50px; /* Adjust icon size as needed */
-    text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+  /* Adjust icon color as needed */
+  font-size: 50px;
+  /* Adjust icon size as needed */
+  text-decoration: none;
 }
 
 .social-links a:hover {
-    color: #007bff;
+  color: #007bff;
 }
