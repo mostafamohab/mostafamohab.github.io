@@ -212,7 +212,7 @@ section h2 {
 .skill-categories {
   display: flex;
   justify-content: space-around;
- font-size: 12px;
+ font-size: 10px;
 }
 
 .skill-categories>div {
