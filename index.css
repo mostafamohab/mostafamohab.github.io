@@ -239,3 +239,18 @@ footer {
 .social-links a:hover {
   color: #007bff;
 }
+
+.download-link a{
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+    /* Adjust icon color as needed */
+    font-size: 50px;
+    /* Adjust icon size as needed */
+    text-decoration: none;
+}
+
+.download-link a:hover {
+  color: #007bff;
+}
+
