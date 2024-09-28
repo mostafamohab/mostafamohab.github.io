@@ -10,4 +10,12 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
-});
+}
+function generatePDF() {
+        // Your PDF generation logic here
+        // Once generated, set the download link dynamically
+        const pdfPath = 'path/to/generated.pdf';
+        const downloadLink = document.getElementById('download-link');
+        downloadLink.href = pdfPath;
+}
+);
