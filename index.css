@@ -6,7 +6,6 @@ body {
   line-height: 20px;
   color: #333;
   box-sizing: border-box;
-text-align: center;
 }
 
 /* Header styling */
@@ -241,10 +240,10 @@ footer {
   color: #007bff;
 }
 
+/* Downloaf icon styling */
 .download-link a{
     margin: 0 10px;
     color: #007bff;
-    text-decoration: none;
     /* Adjust icon color as needed */
     font-size: 50px;
     /* Adjust icon size as needed */
