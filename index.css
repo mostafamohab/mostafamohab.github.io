@@ -11,8 +11,9 @@ body {
 /* Header styling */
 header {
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
   background-color: #f0f0f0;
+  box-sizing: border-box;
 }
 
 /*profile picture styling*/
