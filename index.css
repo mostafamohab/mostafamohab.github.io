@@ -69,8 +69,6 @@ section {
   padding: 10px 0;
 }
 
-
-
 /* Timeline styling (for Experience section) */
 .timeline {
   position: relative;
@@ -205,7 +203,7 @@ section {
 footer {
   background-color: #f0f0f0;
   text-align: center;
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 /* Social media icons styling */
