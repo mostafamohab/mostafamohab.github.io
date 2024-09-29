@@ -212,49 +212,49 @@ section h2 {
 }
 
 /* personal styling */
-.section:personal {
+#personal:section {
   display: flex;
   justify-content: space-around;
  font-size: 12px;
 }
 
-.p:personal{
+#personal:p{
  text-align: center;
 }
 
 /* objective styling */
-.section:objective {
+#objective:section {
   display: flex;
   justify-content: space-around;
  font-size: 8px;
 }
 
 /* experience styling */
-.section:experience{
+#experience:section{
   display: flex;
   justify-content: space-around;
  font-size: 12px;
 }
 
 /* education styling */
-.section:education{
+#education:section{
   display: flex;
   justify-content: space-around;
  font-size: 8px;
 }
 
-.p:education {
+#education:p {
  text-align: left;
 }
 
 /* certificates styling */
-.section:certificates{
+#certificates:section{
   display: flex;
   justify-content: space-around;
  font-size: 8px;
 }
 
-.p:certificates{
+#certificates:p{
  text-align: left;
 }
 
@@ -265,7 +265,7 @@ section h2 {
  font-size: 8px;
 }
 
-.p:projects{
+#projects:p{
  text-align: left;
 }
 
