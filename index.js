@@ -5,8 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
             let panel = this.parentElement.children[this.parentElement.children.length - 1];
             if (panel.style.display === "block") {
                 panel.style.display = "none";
+                acc[i].children[2].innerHTML = "+";
             } else {
                 panel.style.display = "block";
+	            acc[i].children[2].innerHTML = "–";
             }
         });
     }
