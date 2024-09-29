@@ -210,6 +210,13 @@ section h2 {
   }
 }
 
+/* personal styling */
+.personal {
+  display: flex;
+  justify-content: space-around;
+ font-size: 15px;
+}
+
 /* Skill categories styling */
 .skill-categories {
   display: flex;
