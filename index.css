@@ -260,6 +260,10 @@ section h2 {
  font-size: 12px;
 }
 
+.social-links{
+  text-align: center;
+}
+
 /* social icons div text alignment*/
 .social-links>div{
   text-align: center;
