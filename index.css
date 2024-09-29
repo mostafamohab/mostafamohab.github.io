@@ -310,6 +310,7 @@ section h2 {
   justify-content: space-around;
   font-size: 0.9em;
   text-align: left;
+  Width: fill;
 }
 
 .skill-categories>div {
