@@ -267,9 +267,9 @@ section h2 {
 
 /* Skill categories styling */
 .skill-categories {
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 
 .skill-categories>div {
