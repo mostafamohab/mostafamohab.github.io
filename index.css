@@ -6,7 +6,6 @@ body {
   line-height: 30px;
   color: #333;
   box-sizing: border-box;
-  text-align: center;
 }
 
 /* Header styling */
@@ -306,6 +305,7 @@ footer {
     font-size: 50px;
     /* Adjust icon size as needed */
     text-decoration: none;
+    text-align: center;
 }
 
 .download-link a:hover {
