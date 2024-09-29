@@ -212,14 +212,14 @@ section h2 {
 .section:personal {
   display: flex;
   justify-content: space-around;
- font-size: 15px;
+ font-size: 12px;
 }
 
 /* objective styling */
 .section:objective {
   display: flex;
   justify-content: space-around;
- font-size: 15px;
+ font-size: 10px;
 }
 
 /* experience styling */
@@ -233,14 +233,14 @@ section h2 {
 .section:education{
   display: flex;
   justify-content: space-around;
- font-size: 12px;
+ font-size: 8px;
 }
 
 /* certificates styling */
 .section:certificates{
   display: flex;
   justify-content: space-around;
- font-size: 12px;
+ font-size: 8px;
 }
 
 /* projects styling */
