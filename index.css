@@ -8,10 +8,6 @@ body {
   box-sizing: border-box;
 }
 
-p {
-  text-align: center;
-}
-
 /* Header styling */
 header {
   text-align: center;
@@ -243,7 +239,7 @@ section h2 {
  font-size: 8px;
 }
 
-.p education>{
+.p education{
  text-align: left;
 }
 
@@ -254,11 +250,19 @@ section h2 {
  font-size: 8px;
 }
 
+.p certificates{
+ text-align: left;
+}
+
 /* projects styling */
 .section:projects{
   display: flex;
   justify-content: space-around;
  font-size: 8px;
+}
+
+.p projects{
+ text-align: left;
 }
 
 /* skills styling */
