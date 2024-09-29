@@ -243,6 +243,10 @@ section h2 {
  font-size: 8px;
 }
 
+.p:education{
+ text-align: left;
+}
+
 /* certificates styling */
 .section:certificates{
   display: flex;
