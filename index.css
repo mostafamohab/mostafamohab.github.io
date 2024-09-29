@@ -265,7 +265,7 @@ section h2 {
 /* projects styling */
 #projects .accordion-content{
   justify-content: space-around;
-  font-size: 8px;
+  font-size: 12px;
   text-align: left;
 }
 
@@ -276,7 +276,7 @@ section h2 {
 /* skills styling */
 #skills .accordion-content{
   justify-content: space-around;
-  font-size: 8px;
+  font-size: 12px;
   text-align: left;
 }
 
