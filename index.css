@@ -211,7 +211,7 @@ section h2 {
 }
 
 /* personal styling */
-.personal {
+.section:personal {
   display: flex;
   justify-content: space-around;
  font-size: 15px;
