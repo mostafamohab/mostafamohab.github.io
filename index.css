@@ -224,6 +224,13 @@ section h2 {
  font-size: 15px;
 }
 
+/* experience styling */
+.section:objective {
+  display: flex;
+  justify-content: space-around;
+ font-size: 12px;
+}
+
 /* Skill categories styling */
 .skill-categories {
   display: flex;
