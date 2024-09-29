@@ -259,7 +259,7 @@ section h2 {
 }
 
 /* projects styling */
-.section:projects{
+#projects:section{
   display: flex;
   justify-content: space-around;
  font-size: 8px;
@@ -270,7 +270,7 @@ section h2 {
 }
 
 /* skills styling */
-.section:skills{
+#skills{
   display: flex;
   justify-content: space-around;
  font-size: 12px;
