@@ -258,6 +258,11 @@ section h2 {
  font-size: 12px;
 }
 
+/* social icons div text alignment*/
+.div:social-links{
+  text-align: center;
+}
+
 /* Skill categories styling */
 .skill-categories {
   display: flex;
