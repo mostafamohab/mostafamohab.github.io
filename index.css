@@ -219,7 +219,7 @@ section h2 {
 .section:objective {
   display: flex;
   justify-content: space-around;
- font-size: 10px;
+ font-size: 8px;
 }
 
 /* experience styling */
