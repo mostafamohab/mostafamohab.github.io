@@ -217,6 +217,13 @@ section h2 {
  font-size: 15px;
 }
 
+/* objective styling */
+.section:objective {
+  display: flex;
+  justify-content: space-around;
+ font-size: 15px;
+}
+
 /* Skill categories styling */
 .skill-categories {
   display: flex;
