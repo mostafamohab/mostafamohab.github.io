@@ -275,6 +275,7 @@ section h2 {
 .skill-categories>div {
   flex: 1;
   margin: 0 0px;
+  display: inline-block;
 }
 
 /* Footer styling */
