@@ -89,8 +89,6 @@ section h2 {
   color: #007bff;
 }
 
-
-
 /* Timeline styling (for Experience section) */
 .timeline {
   position: relative;
@@ -181,7 +179,7 @@ section h2 {
 }
 
 /* Hide the original marker */
-/* .timeline-marker {
+.timeline-marker {
     display: none;
 } 
 
