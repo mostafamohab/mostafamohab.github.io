@@ -229,6 +229,13 @@ section h2 {
  font-size: 12px;
 }
 
+/* education styling */
+.section:education{
+  display: flex;
+  justify-content: space-around;
+ font-size: 12px;
+}
+
 /* certificates styling */
 .section:certificates{
   display: flex;
@@ -236,8 +243,15 @@ section h2 {
  font-size: 12px;
 }
 
-/* education styling */
-.section:education{
+/* projects styling */
+.section:projects{
+  display: flex;
+  justify-content: space-around;
+ font-size: 12px;
+}
+
+/* skills styling */
+.section:skills{
   display: flex;
   justify-content: space-around;
  font-size: 12px;
