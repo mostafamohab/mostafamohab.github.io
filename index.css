@@ -270,7 +270,7 @@ section h2 {
 }
 
 /* skills styling */
-#skills{
+#skills:section{
   display: flex;
   justify-content: space-around;
  font-size: 12px;
