@@ -306,7 +306,7 @@ section h2 {
 
 /* Skill categories styling */
 .skill-categories {
-  display: inline-flex;
+  display: flex;
   justify-content: space-around;
   font-size: 0.9em;
   text-align: left;
@@ -319,6 +319,11 @@ section h2 {
   width: 20%;
   display: inline-block;
   text-align: left;
+  margin-inline-end: 16px;
+}
+
+.skill-categories > div:last-child {
+    margin-inline-end: 0;
 }
 
 /* Footer styling */
