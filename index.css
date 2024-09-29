@@ -225,7 +225,7 @@ section h2 {
 }
 
 /* experience styling */
-.section:objective {
+.section:experience{
   display: flex;
   justify-content: space-around;
  font-size: 12px;
