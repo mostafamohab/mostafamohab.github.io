@@ -212,28 +212,32 @@ section h2 {
 }
 
 /* personal styling */
-.section:personal {
+.section personal {
   display: flex;
   justify-content: space-around;
  font-size: 12px;
 }
 
+.p personal{
+ text-align: left;
+}
+
 /* objective styling */
-.section:objective {
+.section objective {
   display: flex;
   justify-content: space-around;
  font-size: 8px;
 }
 
 /* experience styling */
-.section:experience{
+.section experience{
   display: flex;
   justify-content: space-around;
  font-size: 12px;
 }
 
 /* education styling */
-.section:education{
+.section education{
   display: flex;
   justify-content: space-around;
  font-size: 8px;
@@ -244,7 +248,7 @@ section h2 {
 }
 
 /* certificates styling */
-.section:certificates{
+.section certificates{
   display: flex;
   justify-content: space-around;
  font-size: 8px;
@@ -266,7 +270,7 @@ section h2 {
 }
 
 /* skills styling */
-.section:skills{
+.section skills{
   display: flex;
   justify-content: space-around;
  font-size: 12px;
