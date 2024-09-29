@@ -233,7 +233,11 @@ section h2 {
 #experience:section{
   display: flex;
   justify-content: space-around;
- font-size: 12px;
+ font-size: 8px;
+}
+
+#experience:p {
+ text-align: center;
 }
 
 /* education styling */
@@ -273,7 +277,7 @@ section h2 {
 #skills:section{
   display: flex;
   justify-content: space-around;
- font-size: 12px;
+ font-size: 8px;
 }
 
 .social-links{
