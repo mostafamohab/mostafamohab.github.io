@@ -229,6 +229,13 @@ section h2 {
  font-size: 12px;
 }
 
+/* certificates styling */
+.section:certificates{
+  display: flex;
+  justify-content: space-around;
+ font-size: 12px;
+}
+
 /* Skill categories styling */
 .skill-categories {
   display: flex;
