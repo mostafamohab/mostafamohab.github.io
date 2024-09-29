@@ -289,15 +289,15 @@ section h2 {
   text-align: center;
 }
 
-/* Prokect categories styling */
-.Project-categories {
+/* project categories styling */
+.project-categories {
   display: inline-flex;
   justify-content: space-around;
   font-size: 0.9em;
   text-align: left;
 }
 
-.Project-categories>div {
+.project-categories>div {
   flex: 1;
   margin: 0 0px;
   display: inline-block;
