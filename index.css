@@ -212,7 +212,7 @@ section h2 {
 }
 
 /* personal styling */
-#personal:section {
+#personal:body {
   display: flex;
   justify-content: space-around;
  font-size: 12px;
