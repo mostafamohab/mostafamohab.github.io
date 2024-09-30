@@ -214,7 +214,7 @@ section h2 {
 /* personal styling */
 #personal .accordion-content{
  justify-content: space-around;
- font-size: 16px;
+ font-size: 15px;
  text-align: center;
 }
 
@@ -225,7 +225,7 @@ section h2 {
 /* objective styling */
 #objective .accordion-content{
  justify-content: space-around;
- font-size: 12px;
+ font-size: 15px;
  text-align: center;
 }
 
@@ -243,7 +243,7 @@ section h2 {
 /* education styling */
 #education .accordion-content{
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -254,7 +254,7 @@ section h2 {
 /* certificates styling */
 #certificates .accordion-content{
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -265,7 +265,7 @@ section h2 {
 /* projects styling */
 #projects .accordion-content{
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -276,7 +276,7 @@ section h2 {
 /* skills styling */
 #skills .accordion-content{
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 20px;
   text-align: left;
 }
 
