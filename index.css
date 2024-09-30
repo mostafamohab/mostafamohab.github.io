@@ -291,17 +291,24 @@ section h2 {
 
 /* project categories styling */
 .project-categories {
-  display: inline-flex;
+  display: flex;
   justify-content: space-around;
   font-size: 0.9em;
   text-align: left;
+  Width: fill;
 }
 
 .project-categories>div {
   flex: 1;
   margin: 0 0px;
+  width: 33%;
   display: inline-block;
   text-align: left;
+  margin-inline-end: 16px;
+}
+
+.project-categories > div:last-child {
+    margin-inline-end: 0;
 }
 
 /* Skill categories styling */
