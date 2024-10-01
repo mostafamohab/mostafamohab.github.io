@@ -335,8 +335,8 @@ section h2 {
 .skill-categories>div {
   flex: 1;
   margin: 0 0px;
-  width: 20%;
-  display: inline-block;
+  width: 100%;
+  display: inline-flex;
   text-align: left;
   margin-inline-end: 16px;
 }
