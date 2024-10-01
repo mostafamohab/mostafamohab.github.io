@@ -365,10 +365,10 @@ footer {
 
 /* Competencies icons styling */
 .Competencies-links a {
-  margin: 0 10px;
+  margin: 0 12px;
   color: #333;
   /* Adjust icon color as needed */
-  font-size: 20px;
+  font-size: 25px;
   /* Adjust icon size as needed */
   text-decoration: none;
   text-align: center;
