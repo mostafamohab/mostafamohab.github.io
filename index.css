@@ -301,7 +301,7 @@ h4:had(>button.accordion){
 
 /* project categories styling */
 .project-categories {
-  display: grid;
+  display: inline-grid;
   justify-content: space-around;
   font-size: 0.9em;
   text-align: left;
@@ -329,7 +329,7 @@ h4:had(>button.accordion){
 
 /* Skill categories styling */
 .skill-categories {
-  display: grid;
+  display: inline-grid;
   justify-content: space-around;
   font-size: 0.9em;
   text-align: left;
