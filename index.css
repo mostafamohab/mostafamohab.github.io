@@ -236,7 +236,7 @@ h4:had(>button.accordion){
 /* experience styling */
 #experience .accordion-content{
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 15px;
   text-align: left;
 }
 
