@@ -226,15 +226,6 @@ h4:had(>button.accordion){
 #personal:p{
  text-align: center;
 }
-
-#competencies:div {
-display: inline-grid;
-justify-content: space-around;
-font-size: 1.2em;
-text-align: left;
-Width: auto;
-  
-} 
   
 
 /* Competencies styling */
