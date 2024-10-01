@@ -297,7 +297,7 @@ section h2 {
 
 /* project categories styling */
 .project-categories {
-  display: inline-flex;
+  display: inline-grid;
   justify-content: space-around;
   font-size: 0.9em;
   text-align: left;
@@ -325,7 +325,7 @@ section h2 {
 
 /* Skill categories styling */
 .skill-categories {
-  display: inline-flex;
+  display: inline-grid;
   justify-content: space-around;
   font-size: 0.9em;
   text-align: left;
