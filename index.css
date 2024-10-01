@@ -368,10 +368,11 @@ footer {
   margin: 0 10px;
   color: #333;
   /* Adjust icon color as needed */
-  font-size: 50px;
+  font-size: 20px;
   /* Adjust icon size as needed */
   text-decoration: none;
   text-align: center;
+  display: inline-flex;
 }
 
 .Competencies-links a:hover {
