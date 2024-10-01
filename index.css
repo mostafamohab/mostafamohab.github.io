@@ -94,7 +94,7 @@ h4:had(>button.accordion){
 
 .social-links a:hover {
   color: #00  color: #333;
-  font-size: 24px;
+  font-size: 30px;
   text-decoration: none;
   text-align: center;
 }
@@ -413,7 +413,7 @@ footer {
   margin: 0 10px;
   color: #333;
   /* Adjust icon color as needed */
-  font-size: 24px;
+  font-size: 35px;
   /* Adjust icon size as needed */
   text-decoration: none;
   text-align: center;
