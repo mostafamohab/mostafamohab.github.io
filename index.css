@@ -227,11 +227,22 @@ h4:had(>button.accordion){
  text-align: center;
 }
 
+#competencies {
+display: inline-grid;
+justify-content: space-around;
+font-size: 1.2em;
+text-align: left;
+Width: auto;
+  
+} 
+  
+
 /* Competencies styling */
-#Competencies .accordion-content{
+#competencies .accordion-content{
  justify-content: space-around;
  font-size: 20px;
  text-align: center;
+ font-size: 1.2em;
 }
 
 /* objective styling */
