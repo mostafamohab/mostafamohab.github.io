@@ -372,7 +372,7 @@ footer {
   /* Adjust icon size as needed */
   text-decoration: none;
   text-align: center;
-  display: inline-flex;
+  display: inline-grid;
 }
 
 .Competencies-links a:hover {
