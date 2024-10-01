@@ -317,6 +317,12 @@ section h2 {
     margin-inline-end: 0;
 }
 
+.project-categories: button .accordion-content {
+  justify-content: space-around;
+  font-size: 20px;
+  text-align: left;
+}
+
 /* Skill categories styling */
 .skill-categories {
   display: flex;
