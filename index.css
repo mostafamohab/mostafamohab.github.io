@@ -276,7 +276,7 @@ h4:had(>button.accordion){
 /* projects styling */
 #projects .accordion-content{
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 12px;
   text-align: left;
 }
 
@@ -293,7 +293,7 @@ h4:had(>button.accordion){
 /* skills styling */
 #skills .accordion-content{
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 12px;
   text-align: left;
 }
 
