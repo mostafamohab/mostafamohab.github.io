@@ -307,10 +307,10 @@ section h2 {
 .project-categories>div {
   flex: 1;
   margin: 0 0px;
-  width: 100%;
   display: inline-flex;
   text-align: left;
   margin-inline-end: 16px;
+  width: auto;
 }
 
 .project-categories > div:last-child {
@@ -335,10 +335,10 @@ section h2 {
 .skill-categories>div {
   flex: 1;
   margin: 0 0px;
-  width: 100%;
   display: inline-flex;
   text-align: left;
   margin-inline-end: 16px;
+  width: auto;
 }
 
 .skill-categories > div:last-child {
