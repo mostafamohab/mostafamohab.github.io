@@ -249,9 +249,8 @@ h4:had(>button.accordion){
 /* Competencies styling */
 #competencies .accordion-content{
  justify-content: space-around;
- font-size: 20px;
+ font-size: 24px;
  text-align: center;
- font-size: 1.2em;
 }
 
 /* objective styling */
