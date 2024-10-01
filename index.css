@@ -373,8 +373,7 @@ footer {
   /* Adjust icon size as needed */
   text-decoration: none;
   text-align: left;
-  display: inline-grid;
-}
+} 
 
 .Competencies-links a:hover {
   color: #007bff;
