@@ -93,6 +93,24 @@ h4:had(>button.accordion){
 }
 
 .social-links a:hover {
+  color: #00  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+.contact-links a:hover {
+  color: #00  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.contact-links a:hover {
   color: #007bff;
 }
 
@@ -309,6 +327,16 @@ h4:had(>button.accordion){
   text-align: center;
 }
 
+.contact-links{
+  text-align: center;
+}
+
+/* contact link icons div text alignment*/
+.contact-links>div{
+  text-align: center;
+}
+
+
 /* project categories styling */
 .project-categories {
   display: inline-grid;
@@ -395,7 +423,23 @@ footer {
 
 .social-links a:hover {
   color: #007bff;
+} 
+
+/* Contact links icons styling */
+.contact-links a {
+  margin: 0 10px;
+  color: #333;
+  /* Adjust icon color as needed */
+  font-size: 50px;
+  /* Adjust icon size as needed */
+  text-decoration: none;
+  text-align: center;
 }
+
+.contact-links a:hover {
+  color: #007bff;
+}
+
 
 /* Downloaf icon styling */
 .download-link a{
