@@ -269,6 +269,12 @@ section h2 {
   text-align: left;
 }
 
+#projects: button.accordion-content{
+  justify-content: space-around;
+  font-size: 15px;
+  text-align: left;
+}
+
 #projects:p{
  text-align: left;
 }
