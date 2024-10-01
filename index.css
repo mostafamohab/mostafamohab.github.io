@@ -233,7 +233,7 @@ h4:had(>button.accordion){
  justify-content: space-around;
  font-size: 20px;
  text-align: left;
- font-size: 1em;
+ font-size: 1.2em;
 }
 
 /* objective styling */
@@ -368,7 +368,7 @@ footer {
 
 /* Competencies icons styling */
 .Competencies-links a {
-  margin: 0 150px;
+  margin: 0 0px;
   color: #333;
   /* Adjust icon color as needed */
   font-size: 25px;
