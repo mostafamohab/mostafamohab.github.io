@@ -347,9 +347,9 @@ h4:had(>button.accordion){
 .project-categories>div {
   flex: 1;
   margin: 0 0px;
-  display: inline-grid;
+  display: flex;
   text-align: center;
-  margin-inline-end: 16px;
+  margin-inline-end: auto;
   width: auto;
 }
 
@@ -375,9 +375,9 @@ h4:had(>button.accordion){
 .skill-categories>div {
   flex: 1;
   margin: 0 0px;
-  display: inline-grid;
+  display: flex;
   text-align: center;
-  margin-inline-end: 16px;
+  margin-inline-end: auto;
   width: auto;
 }
 
