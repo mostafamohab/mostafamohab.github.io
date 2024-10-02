@@ -236,7 +236,7 @@ h4:had(>button.accordion){
 /* personal styling */
 #personal .accordion-content{
  justify-content: space-around;
- font-size: 20px;
+ font-size: 15px;
  text-align: center;
 }
 
@@ -248,14 +248,14 @@ h4:had(>button.accordion){
 /* Competencies styling */
 #competencies .accordion-content{
  justify-content: space-around;
- font-size: 24px;
+ font-size: 15px;
  text-align: center;
 }
 
 /* objective styling */
 #objective .accordion-content{
  justify-content: space-around;
- font-size: 20px;
+ font-size: 15px;
  text-align: center;
 }
 
@@ -273,7 +273,7 @@ h4:had(>button.accordion){
 /* education styling */
 #education .accordion-content{
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -284,7 +284,7 @@ h4:had(>button.accordion){
 /* certificates styling */
 #certificates .accordion-content{
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -295,7 +295,7 @@ h4:had(>button.accordion){
 /* projects styling */
 #projects .accordion-content{
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -312,7 +312,13 @@ h4:had(>button.accordion){
 /* skills styling */
 #skills .accordion-content{
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 15px;
+  text-align: left;
+}
+
+#skills: .button.accordion-content{
+  justify-content: space-around;
+  font-size: 15px;
   text-align: left;
 }
 
@@ -359,7 +365,7 @@ h4:had(>button.accordion){
 
 .project-categories: button .accordion-content {
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
 }
 
