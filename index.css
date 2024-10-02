@@ -134,6 +134,7 @@ h4:had(>button.accordion){
 .timeline-content .timeline-company {
   color: #666;
   font-style: italic;
+  font-size: 1.5em;
   margin-bottom: 5px;
 }
 
