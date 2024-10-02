@@ -119,43 +119,26 @@ h4:had(>button.accordion){
   position: relative;
 }
 
-.timeline::after {
-  position: absolute;
-  width: 6px;
-  background-color: #ddd;
-  top: 0;
-  bottom: 0;
-}
-
 .timeline-item {
   position: relative;
   margin-bottom: 40px;
   width: auto;
 }
 
-.timeline-icon {
-  position: absolute;
-  top: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #007bff;
-  /* Example icon color */
-}
-
 .timeline-content .timeline-title {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin-bottom: 5px;
 }
 
 .timeline-content .timeline-company {
   color: #666;
   font-style: italic;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .timeline-content .timeline-responsibilities li {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 /* personal styling */
