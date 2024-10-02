@@ -123,20 +123,17 @@ h4:had(>button.accordion){
 }
 
 .timeline::after {
-  content: '';
   position: absolute;
   width: 6px;
   background-color: #ddd;
   top: 0;
   bottom: 0;
-  left: 50%;
-  margin-left: -3px;
 }
 
 .timeline-item {
   position: relative;
   margin-bottom: 40px;
-  width: calc(50% - 20px);
+  width: auto;
 }
 
 .timeline-icon {
@@ -151,11 +148,6 @@ h4:had(>button.accordion){
   /* Example icon color */
 }
 
-.timeline-item:nth-child(odd) {
-  left: 0;
-  padding-right: 20px;
-}
-
 .timeline-item:nth-child(odd)::after {
   content: '';
   position: absolute;
@@ -167,11 +159,6 @@ h4:had(>button.accordion){
   top: 0;
   border-radius: 50%;
   z-index: 1;
-}
-
-.timeline-item:nth-child(even) {
-  left: 50%;
-  padding-left: 20px;
 }
 
 .timeline-item:nth-child(even)::before {
@@ -202,11 +189,6 @@ h4:had(>button.accordion){
 .timeline-content .timeline-responsibilities li {
   margin-bottom: 5px;
 }
-
-/* Hide the original marker */
-.timeline-marker {
-    display: none;
-} 
 
 /* personal styling */
 #personal .accordion-content{
