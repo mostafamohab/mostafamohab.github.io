@@ -209,24 +209,12 @@ h4:had(>button.accordion){
   text-align: left;
 }
 
-#projects: .button.accordion-content{
-  justify-content: space-around;
-  font-size: 15px;
-  text-align: left;
-}
-
 #projects:p{
  text-align: left;
 }
 
 /* skills styling */
 #skills .accordion-content{
-  justify-content: space-around;
-  font-size: 15px;
-  text-align: left;
-}
-
-#skills: .button.accordion-content{
   justify-content: space-around;
   font-size: 15px;
   text-align: left;
@@ -250,7 +238,6 @@ h4:had(>button.accordion){
   text-align: center;
 }
 
-
 /* project categories styling */
 .project-categories {
   display: inline-grid;
@@ -258,21 +245,6 @@ h4:had(>button.accordion){
   font-size: 0.9em;
   text-align: left;
   Width: auto;
-}
-
-.project-categories>div {
-  flex: 1;
-  margin: 0 0px;
-  display: flex;
-  text-align: center;
-  margin-inline-end: auto;
-  width: auto;
-}
-
-.project-categories: button .accordion-content {
-  justify-content: space-around;
-  font-size: 15px;
-  text-align: left;
 }
 
 /* Skill categories styling */
@@ -283,8 +255,6 @@ h4:had(>button.accordion){
   text-align: left;
   Width: auto;
 }
-
-
 
 /* Footer styling */
 footer {
