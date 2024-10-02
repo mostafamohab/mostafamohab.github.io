@@ -134,12 +134,13 @@ h4:had(>button.accordion){
 .timeline-content .timeline-company {
   color: #666;
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-bottom: 5px;
 }
 
 .timeline-content .timeline-responsibilities li {
-  margin-bottom: 0px;
+    font-size: 1em;  
+    margin-bottom: 0px;
 }
 
 /* personal styling */
