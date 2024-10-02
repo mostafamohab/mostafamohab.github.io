@@ -297,10 +297,6 @@ h4:had(>button.accordion){
   width: auto;
 }
 
-.skill-categories > div:last-child {
-    margin-inline-end: 0;
-}
-
 /* Footer styling */
 footer {
   background-color: #f0f0f0;
