@@ -208,31 +208,6 @@ h4:had(>button.accordion){
     display: none;
 } 
 
-/* Media query for responsiveness */
-@media screen and (max-width: 768px) {
-  .timeline::after {
-    left: 31px;
-  }
-
-  .timeline-item {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-
-  .timeline-item::before {
-    left: 60px;
-  }
-
-  .timeline-item .timeline-content {
-    float: none;
-  }
-
-  .timeline-item .timeline-content::before {
-    left: 68px;
-  }
-}
-
 /* personal styling */
 #personal .accordion-content{
  justify-content: space-around;
