@@ -140,7 +140,7 @@ h4:had(>button.accordion){
 
 .timeline-content .timeline-responsibilities li {
     font-size: 1em;  
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 /* personal styling */
@@ -242,7 +242,7 @@ h4:had(>button.accordion){
 .project-categories {
   display: inline-grid;
   justify-content: space-around;
-  font-size: 0.9em;
+  font-size: 1em;
   text-align: left;
   Width: auto;
 }
@@ -251,7 +251,7 @@ h4:had(>button.accordion){
 .skill-categories {
   display: inline-grid;
   justify-content: space-around;
-  font-size: 0.9em;
+  font-size: 1em;
   text-align: left;
   Width: auto;
 }
