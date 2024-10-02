@@ -117,9 +117,6 @@ h4:had(>button.accordion){
 /* Timeline styling (for Experience section) */
 .timeline {
   position: relative;
-  max-width: 1200px;
-  /* Adjust as needed */
-  margin: 0 auto;
 }
 
 .timeline::after {
@@ -139,11 +136,8 @@ h4:had(>button.accordion){
 .timeline-icon {
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
   width: 20px;
   height: 20px;
-  border-radius: 50%;
   background-color: #007bff;
   /* Example icon color */
 }
