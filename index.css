@@ -176,7 +176,7 @@ h4:had(>button.accordion){
 }
 
 #experience:p {
- text-align: center;
+ text-align: left;
 }
 
 /* education styling */
