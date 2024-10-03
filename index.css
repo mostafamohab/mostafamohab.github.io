@@ -60,7 +60,7 @@ header img {
 
 /* Section styling */
 section {
-  padding: 0px 0;
+  padding: 0 0;
 }
 
 section:last-child {
@@ -72,14 +72,11 @@ section h2 {
   margin-bottom: 20px;
 }
 
-
-
 .container {
   max-width: 1280px;
   margin: auto auto;
-  padding: 0px;
+  padding: 0;
 }
-
 
 .social-links a {
   margin: 0 10px;
@@ -96,19 +93,11 @@ section h2 {
   text-align: center;
 }
 
-.social-links a:hover {
-  color: #007bff;
-}
-
 .contact-links a:hover {
   color: #333;
   font-size: 20px;
   text-decoration: none;
   text-align: left;
-}
-
-.contact-links a:hover {
-  color: #007bff;
 }
 
 /* Timeline styling (for Experience section) */
@@ -136,111 +125,110 @@ section h2 {
 }
 
 .timeline-content .timeline-responsibilities li {
-    font-size: 1em;  
-    margin-bottom: 5px;
+  font-size: 1em;
+  margin-bottom: 5px;
 }
 
 /* personal styling */
-#personal .accordion-content{
- justify-content: space-around;
- font-size: 15px;
- text-align: center;
+#personal .accordion-content {
+  justify-content: space-around;
+  font-size: 15px;
+  text-align: center;
 }
 
-#personal:p{
- text-align: center;
+#personal p {
+  text-align: center;
 }
-  
 
 /* Competencies styling */
-#competencies .accordion-content{
- justify-content: space-around;
- font-size: 15px;
- text-align: center;
+#competencies .accordion-content {
+  justify-content: space-around;
+  font-size: 15px;
+  text-align: center;
 }
 
 /* objective styling */
-#objective .accordion-content{
- justify-content: space-around;
- font-size: 15px;
- text-align: center;
+#objective .accordion-content {
+  justify-content: space-around;
+  font-size: 15px;
+  text-align: center;
 }
 
 /* experience styling */
-#experience .accordion-content{
+#experience .accordion-content {
   justify-content: space-around;
   font-size: 15px;
   text-align: left;
 }
 
-#experience:p {
- text-align: left;
+#experience p {
+  text-align: left;
 }
 
 /* education styling */
-#education .accordion-content{
+#education .accordion-content {
   justify-content: space-around;
   font-size: 15px;
   text-align: left;
 }
 
-#education:p {
- text-align: left;
+#education p {
+  text-align: left;
 }
 
 /* certificates styling */
-#certificates .accordion-content{
+#certificates .accordion-content {
   justify-content: center;
   font-size: 15px;
   text-align: left;
 }
 
-#certificates:p{
- text-align: left;
+#certificates p {
+  text-align: left;
 }
 
 /* projects styling */
-#projects .accordion-content{
+#projects .accordion-content {
   justify-content: center;
   font-size: 15px;
   text-align: left;
   font-weight: normal;
 }
 
-#projects:p{
- text-align: left;
+#projects p {
+  text-align: left;
 }
 
 /* skills styling */
-#skills .accordion-content{
+#skills .accordion-content {
   justify-content: center;
   font-size: 15px;
   text-align: left;
   font-weight: normal;
 }
 
-#skills .button.accordion-content{
+#skills .button.accordion-content {
   justify-content: center;
   font-size: 15px;
   text-align: left;
   font-weight: normal;
 }
 
-.social-links{
+.social-links {
   text-align: center;
 }
 
 /* social icons div text alignment*/
-.social-links>div{
+.social-links > div {
   text-align: center;
 }
 
-.contact-links{
+.contact-links {
   text-align: center;
 }
 
 /* contact link icons div text alignment*/
-.contact-links>div{
+.contact-links > div {
   text-align: center;
 }
 
@@ -250,7 +238,7 @@ section h2 {
   justify-content: center;
   font-size: 1em;
   text-align: left;
-  Width: 100%;
+  width: 100%;
 }
 
 /* Skill categories styling */
@@ -259,12 +247,11 @@ section h2 {
   justify-content: center;
   font-size: 1em;
   text-align: left;
-  Width: 100%;
+  width: 100%;
 }
 
-
 /* skills styling */
-.skill-categories .accordion-content{
+.skill-categories .accordion-content {
   justify-content: center;
   font-size: 1em;
   text-align: left;
@@ -280,32 +267,17 @@ footer {
 
 /* Competencies icons styling */
 .Competencies-links a {
-  margin: 0 0px;
+  margin: 0 0;
   color: #333;
   /* Adjust icon color as needed */
   font-size: 25px;
   /* Adjust icon size as needed */
   text-align: left;
-
-} 
+}
 
 .Competencies-links a:hover {
   color: #007bff;
 }
-
-/* Social media icons styling */
-.social-links a {
-  margin: 0 10px;
-  color: #333;
-  /* Adjust icon color as needed */
-  font-size: 35px;
-  /* Adjust icon size as needed */
-  text-align: center;
-}
-
-.social-links a:hover {
-  color: #007bff;
-} 
 
 /* Contact links icons styling */
 .contact-links a {
@@ -317,20 +289,15 @@ footer {
   text-align: center;
 }
 
-.contact-links a:hover {
-  color: #007bff;
-}
-
-
 /* Downloaf icon styling */
-.download-link a{
-    margin: 0 10px;
-    color: #007bff;
-    /* Adjust icon color as needed */
-    font-size: 50px;
-    /* Adjust icon size as needed */
-    text-decoration: none;
-    text-align: center;
+.download-link a {
+  margin: 0 10px;
+  color: #007bff;
+  /* Adjust icon color as needed */
+  font-size: 50px;
+  /* Adjust icon size as needed */
+  text-decoration: none;
+  text-align: center;
 }
 
 .download-link a:hover {
