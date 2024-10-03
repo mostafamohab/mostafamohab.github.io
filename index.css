@@ -240,7 +240,7 @@ h4:had(>button.accordion){
 
 /* project categories styling */
 .project-categories {
-  display: block;
+  display: contents;
   justify-content: space-around;
   font-size: 1em;
   text-align: left;
@@ -249,7 +249,7 @@ h4:had(>button.accordion){
 
 /* Skill categories styling */
 .skill-categories {
-  display: block;
+  display: contents;
   justify-content: space-around;
   font-size: 1em;
   text-align: left;
@@ -270,7 +270,6 @@ footer {
   /* Adjust icon color as needed */
   font-size: 25px;
   /* Adjust icon size as needed */
-  text-decoration: none;
   text-align: left;
 
 } 
@@ -286,7 +285,6 @@ footer {
   /* Adjust icon color as needed */
   font-size: 35px;
   /* Adjust icon size as needed */
-  text-decoration: none;
   text-align: center;
 }
 
@@ -301,7 +299,6 @@ footer {
   /* Adjust icon color as needed */
   font-size: 20px;
   /* Adjust icon size as needed */
-  text-decoration: none;
   text-align: center;
 }
 
