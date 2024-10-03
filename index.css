@@ -36,6 +36,7 @@ header img {
   font-size: x-large;
   font-family: Arial, sans-serif;
   display: grid;
+  justify-content: center;
 }
 
 .active,
@@ -191,7 +192,7 @@ h4:had(>button.accordion){
 
 /* certificates styling */
 #certificates .accordion-content{
-  justify-content: space-around;
+  justify-content: center;
   font-size: 15px;
   text-align: left;
 }
@@ -202,7 +203,7 @@ h4:had(>button.accordion){
 
 /* projects styling */
 #projects .accordion-content{
-  justify-content: space-around;
+  justify-content: center;
   font-size: 15px;
   text-align: left;
   font-weight: normal;
@@ -214,7 +215,7 @@ h4:had(>button.accordion){
 
 /* skills styling */
 #skills .accordion-content{
-  justify-content: space-around;
+  justify-content: center;
   font-size: 15px;
   text-align: left;
   font-weight: normal;
@@ -241,7 +242,7 @@ h4:had(>button.accordion){
 /* project categories styling */
 .project-categories {
   display: contents;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 1em;
   text-align: left;
   Width: 100%;
@@ -250,7 +251,7 @@ h4:had(>button.accordion){
 /* Skill categories styling */
 .skill-categories {
   display: contents;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 1em;
   text-align: left;
   Width: 100%;
