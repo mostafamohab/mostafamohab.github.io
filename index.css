@@ -219,6 +219,13 @@ section h2 {
   font-weight: normal;
 }
 
+#skills .button.accordion-content{
+  justify-content: center;
+  font-size: 15px;
+  text-align: left;
+  font-weight: normal;
+}
+
 .social-links{
   text-align: center;
 }
