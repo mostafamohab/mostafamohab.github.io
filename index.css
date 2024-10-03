@@ -240,20 +240,20 @@ h4:had(>button.accordion){
 
 /* project categories styling */
 .project-categories {
-  display: inline-grid;
+  display: block;
   justify-content: space-around;
   font-size: 1em;
   text-align: left;
-  Width: auto;
+  Width: 100%;
 }
 
 /* Skill categories styling */
 .skill-categories {
-  display: inline-grid;
+  display: block;
   justify-content: space-around;
   font-size: 1em;
   text-align: left;
-  Width: auto;
+  Width: 100%;
 }
 
 /* Footer styling */
