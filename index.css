@@ -72,9 +72,7 @@ section h2 {
   margin-bottom: 20px;
 }
 
-h4:had(>button.accordion){
-  width:  auto;
-}
+
 
 .container {
   max-width: 1280px;
