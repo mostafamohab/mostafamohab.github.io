@@ -35,7 +35,7 @@ header img {
   transition: 0.4s;
   font-size: x-large;
   font-family: Arial, sans-serif;
-  display: flex;
+  display: grid;
 }
 
 .active,
