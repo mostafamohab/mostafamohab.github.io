@@ -1,73 +1,74 @@
-# mostafamohab.github.io
+# Mostafa Mohab ElRafey – Resume & Portfolio
 
-Personal website for my resume.
+Senior Test Automation Engineer | Senior Quality Assurance Engineer | Software Quality Expert specializing in Test Automation, Accessibility, CI/CD, and Multinational Projects.
 
-## Table of Contents
-
-- Personal
-- Core Competencies
-- Objective
-- Experience
-- Education
-- Certificates & Licenses
-- Projects
-- Skills
-
-## Personal
-
-Provide a brief introduction about yourself. Include your name, contact information, and a professional summary.
-
-## Core Competencies
-
-List your key strengths and areas of expertise. For example:
-- Software Development
-- Web Development
-- Project Management
-
-## Objective
-
-State your career objectives and what you aim to achieve in your professional journey.
-
-## Experience
-
-Detail your work experience, including job titles, companies, and key responsibilities. For example:
-
-**Software Developer**  
-*Company Name*  
-*Dates of Employment*  
-- Developed and maintained web applications using JavaScript, HTML, and CSS.
-- Collaborated with cross-functional teams to deliver high-quality software solutions.
-
-## Education
-
-List your educational background, including degrees, institutions, and graduation dates. For example:
-
-**Bachelor of Science in Computer Science**  
-*University Name*  
-*Graduation Date*
-
-## Certificates & Licenses
-
-Include any relevant certifications and licenses. For example:
-- Certified Java Developer
-- AWS Certified Solutions Architect
-
-## Projects
-
-Highlight some of the key projects you have worked on. Provide a brief description and any relevant links. For example:
-
-**Project Name**  
-*Description of the project and your role in it.*  
-GitHub Repository
-
-## Skills
-
-List your technical and soft skills. For example:
-- Programming Languages: Java, Python, JavaScript
-- Frameworks: React, Angular, Spring Boot
-- Tools: Git, Docker, Jenkins
-- Soft Skills: Teamwork, Communication, Problem-solving
+📍 Cairo, Egypt  
+📧 [mostafa_mohab18@hotmail.com](mailto:mostafa_mohab18@hotmail.com)  
+📞 [+201283498818](tel:+201283498818)  
+🔗 [LinkedIn](https://www.linkedin.com/in/mostafamohab) | [GitHub](https://github.com/mostafamohab) | [Download CV](assets/Mostafa_Mohab_Senior_Test_Automation_CV_2025.pdf)
 
 ---
 
-Feel free to customize this template to better fit your needs. Let me know if you need any more help!
+## 🚀 Objective
+Senior QA Engineer with 7+ years of experience across test automation, CI/CD, API testing, and accessibility in enterprise and telecom domains. Specialized in reducing release risk, improving test coverage, and mentoring Agile QA teams across Germany, UAE, and KSA.  
+Seeking a senior-level opportunity where I can contribute to engineering excellence and innovation.
+
+---
+
+## 📂 Projects
+
+### **Vodafone Intelligent Solutions (_VOIS)**
+- **Blue Marble – Online Shop** (E-Commerce – Web Application, DE)  
+- **E-Shop – Device Overview Page** (E-Commerce – Web Application, DE)  
+- **Mobile Number Porting** (Telecommunications – Web Application, DE)  
+- **Net Assistant Chatbot & Ticketing System** (Telecommunications, DE)  
+- **Mein Vodafone** (Telecommunications – Web Portal, DE)  
+- **Brix Components** (Component Testing – Web & Mobile, DE)
+
+### **Link TSP**
+- **Étoile** – E-Commerce Mobile App (EG)  
+- **El Abd** – Mobile App, Website & Call Center System (EG)  
+- **Concrete** – E-Commerce Website (EG)  
+- **FRG** – E-Commerce Website (EG)  
+- **Ghaya Pharmacy** – Online Pharmacy Management System (KSA)
+
+### **Envnt (Codelab)**
+- **General Authority of Zakat and Taxes – Operations Center** (Vehicle Tracking, KSA)  
+- **Ministry of Transport – Bravo** (Transportation Management, KSA)  
+- **Bravo – Agile Product** (Workflow Management, KSA)  
+- **VAT/EXCISE** – Vehicle Tracking & Monitoring (KSA)  
+- **MBRGI** – Usability Testing (UAE)  
+- **LMS – Contractor License Services** (KSA)
+
+### **IXDev UK**
+- **IX ERP, CRM, CP, POS, IX Edu, STEM Education** – SME Management Systems (EG)
+
+---
+
+## 🛠️ Skills
+
+**Technical Skills:** Test Automation, API Testing, System Testing, Selenium, SHAFT Engine, Rest Assured, Robot Framework, Postman, SDLC/STLC, Agile, V-Model  
+**Soft Skills:** Time Management, Communication, Team Player, Self-Driven, Problem Solving  
+**Tools:** Azure DevOps, Jira, Git, Maven, TestNG, Apache POI  
+**Programming:** Java, Python, HTML, CSS, JavaScript, SQL, Linux  
+**Languages:** Arabic (Native), English (Fluent), German (Basic)
+
+---
+
+## 🎓 Education
+- **B.Sc. in Software Engineering** – The British University in Egypt & Loughborough University (2017)  
+- **General High School Education** – The English School in Cairo, ElNasr Language Schools (2013)
+
+---
+
+## 📜 Certificates
+- ICAgile Certified Professional Agile Testing (ICP-TST) – 2022  
+- Scrum Foundation Professional Certificate (SFPC) – 2020  
+- German – A1  
+- ISTQB CTFL-Agile Extension – 2019  
+- ISTQB Foundation Level (CTFL) – 2017  
+
+---
+
+## 📄 License
+This portfolio and resume content is © 2024 Mostafa Mohab ElRafey. All rights reserved.
