@@ -5,7 +5,7 @@ Senior Test Automation Engineer | Senior Quality Assurance Engineer | Software Q
 📍 Cairo, Egypt  
 📧 [mostafa_mohab18@hotmail.com](mailto:mostafa_mohab18@hotmail.com)  
 📞 [+201283498818](tel:+201283498818)  
-🔗 [LinkedIn](https://www.linkedin.com/in/mostafamohab) | [GitHub](https://github.com/mostafamohab) | [Download CV](assets/Mostafa_Mohab_Senior_Test_Automation_CV_2025.pdf)
+🔗 [LinkedIn](https://www.linkedin.com/in/mostafamohab) | [GitHub](https://github.com/mostafamohab) 
 
 ---
 
