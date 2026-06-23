@@ -10,7 +10,7 @@ Senior Test Automation Engineer | Senior Quality Assurance Engineer | Software Q
 ---
 
 ## 🚀 Objective
-Senior QA Engineer with 7+ years of experience across test automation, CI/CD, API testing, and accessibility in enterprise and telecom domains. Specialized in reducing release risk, improving test coverage, and mentoring Agile QA teams across Germany, UAE, and KSA.  
+Senior QA Engineer with 8 + years of experience across test automation, CI/CD, API testing, and accessibility in enterprise and telecom domains. Specialized in reducing release risk, improving test coverage, and mentoring Agile QA teams across Germany, UAE, and KSA.  
 Seeking a senior-level opportunity where I can contribute to engineering excellence and innovation.
 
 ---
@@ -62,6 +62,7 @@ Seeking a senior-level opportunity where I can contribute to engineering excelle
 ---
 
 ## 📜 Certificates
+- ISTQB CT – Gen AI 2026
 - ICAgile Certified Professional Agile Testing (ICP-TST) – 2022  
 - Scrum Foundation Professional Certificate (SFPC) – 2020  
 - German – A1  
